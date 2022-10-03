@@ -1,5 +1,5 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index b98f5509..dadbec64 100644
+index b98f5509..32697e05 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -88,9 +88,10 @@ if(WIN32)
@@ -101,7 +101,7 @@ index b98f5509..dadbec64 100644
  
      # ---------------------------------------------------------------------------------------
 diff --git a/bench/CMakeLists.txt b/bench/CMakeLists.txt
-index 5a53a252..c583af90 100644
+index 5a53a252..35983041 100644
 --- a/bench/CMakeLists.txt
 +++ b/bench/CMakeLists.txt
 @@ -8,15 +8,21 @@ if(NOT TARGET spdlog)
@@ -143,7 +143,7 @@ index 861707c3..04c3d4e0 100644
  Requires: @PKG_CONFIG_REQUIRES@
  
 diff --git a/cmake/spdlogConfig.cmake.in b/cmake/spdlogConfig.cmake.in
-index 43ffcf7e..ee6b0f87 100644
+index 43ffcf7e..e46abad1 100644
 --- a/cmake/spdlogConfig.cmake.in
 +++ b/cmake/spdlogConfig.cmake.in
 @@ -1,7 +1,9 @@
