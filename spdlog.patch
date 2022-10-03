@@ -19,7 +19,7 @@ index b98f5509..dadbec64 100644
  endif()
  
 -find_package(Threads REQUIRED)
-+if(not QNX)
++if(NOT QNX)
 +    find_package(Threads REQUIRED)
 +endif()
 +
@@ -51,7 +51,7 @@ index b98f5509..dadbec64 100644
 -target_link_libraries(spdlog PUBLIC Threads::Threads)
 +    "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>")
 +
-+if(not QNX)
++if(NOT QNX)
 +    target_link_libraries(spdlog PUBLIC Threads::Threads)
 +endif()
 +
@@ -109,7 +109,7 @@ index 5a53a252..c583af90 100644
  endif()
  
 -find_package(Threads REQUIRED)
-+if(not QNX)
++if(NOT QNX)
 +    find_package(Threads REQUIRED)
 +endif()
 +
@@ -151,7 +151,7 @@ index 43ffcf7e..ee6b0f87 100644
  # Distributed under the MIT License (http://opensource.org/licenses/MIT)
  
 -find_package(Threads REQUIRED)
-+if(not QNX)
++if(NOT QNX)
 +    find_package(Threads REQUIRED)
 +endif()
  
